@@ -1,2 +1,2 @@
-# cslvae
-Code for the combinatorial synthesis variational auto-encoder as described in the paper, "An efficient graph generative model for navigating ultra-large combinatorial synthesis libraries"
+# Combinatorial Synthesis Library Variational Auto-Encoder (CSLVAE)
+Implementation of CSLVAE, as described in the NeurIPS 2022 paper "An efficient graph generative model for navigating ultra-large combinatorial synthesis libraries"
