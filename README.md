@@ -1,6 +1,6 @@
 # CSLVAE
 
-This is the PyTorch implementation of the **C**ombinatorial **S**ynthesis **L**ibrary **V**ariational **A**uto-**E**ncoder (CSLVAE) described in the [NeurIPS 2022 paper](https://arxiv.org/abs/2211.04468).
+This is the PyTorch implementation of the **C**ombinatorial **S**ynthesis **L**ibrary **V**ariational **A**uto-**E**ncoder (CSLVAE) described in the NeurIPS 2022 paper ["An efficient graph generative model for navigating ultra-large combinatorial synthesis libraries"](https://arxiv.org/abs/2211.04468).
 
 ### Installation
 
