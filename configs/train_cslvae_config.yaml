@@ -1,0 +1,25 @@
+model:
+  node_dim: 64
+  edge_dim: 64
+  query_dim: 64
+  hidden_dim: 64
+  reaction_key_dim: 64
+  synthon_key_dim: 64
+  num_layers: 4
+  residual: true
+  normalize: true
+  aggregate: sum
+
+training:
+  beta_start: 1e-5
+  beta_stop: 1.0
+  beta_step: 1e-5
+  beta_step_iterations: 2000
+  reactions_per_batch: 20
+  products_per_reaction: 100
+  logging_iterations: 10
+  checkpoint_iterations: 100
+  max_iterations: 100000
+  optimizer_name: Adam
+  optimizer_kwargs:
+    lr: 0.001
